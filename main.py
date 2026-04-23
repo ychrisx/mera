@@ -7,7 +7,7 @@ ENA = PWM(Pin(5), freq=1000)   # Motor direito
 ENB = PWM(Pin(18), freq=1000)  # Motor esquerdo
 
 # Velocidade 0 a 1023
-vel_direito = 790
+vel_direito = 770
 vel_esquerdo = 1020
 
 
@@ -100,3 +100,4 @@ start_advertising()
 
 while True:
     time.sleep(0.1)
+
